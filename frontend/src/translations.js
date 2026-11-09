@@ -1,0 +1,356 @@
+// All visible text lives here, in English (en) and Arabic (ar).
+// Names, phone, address and e-mail are placeholders: replace them with the real ones.
+
+const en = {
+  brand: { name: "Buds Kindergarten", tagline: "Early learning and care for ages 2–6" },
+  common: { skip: "Skip to content" },
+  lang: { switch: "العربية" },
+  nav: {
+    home: "Home", about: "About", programs: "Programs", gallery: "Gallery",
+    news: "News", admission: "Admission", contact: "Contact", menu: "Menu",
+  },
+  hero: {
+    title: "A first school where every child blooms",
+    text: "Small groups, warm teachers and a full day of play-based learning in Arabic and English.",
+    primary: "Enroll your child",
+    secondary: "Book a visit",
+  },
+  values: {
+    title: "What your child gets every day",
+    items: [
+      { title: "Safe and caring", text: "Trained teachers, a secured entrance and a nurse on site." },
+      { title: "Learning through play", text: "Counting, letters and science discovered with hands, not worksheets." },
+      { title: "Two languages", text: "Arabic and English in daily songs, stories and conversation." },
+      { title: "Close to families", text: "Daily notes, photo updates and open teacher meetings every month." },
+    ],
+  },
+  programsTeaser: { title: "Three programs, one for each stage", more: "See all programs" },
+  programs: {
+    title: "Our programs",
+    intro: "Groups stay small so every teacher knows every child.",
+    items: [
+      {
+        name: "Little Seeds", age: "Ages 2–3",
+        text: "Gentle first steps away from home: routines, sensory play, songs and plenty of cuddles.",
+        points: ["Groups of up to 10 children", "Sensory and movement play", "Toilet-training support", "Daily nap time"],
+      },
+      {
+        name: "Sprouts", age: "Ages 3–4",
+        text: "Language grows fast at this age. We build words, stories and friendships.",
+        points: ["Songs, stories and puppet shows", "Early letters and numbers through games", "Art and building projects", "Making friends and sharing"],
+      },
+      {
+        name: "Blossoms", age: "Ages 4–6",
+        text: "School readiness: letters, numbers, early writing and independence.",
+        points: ["Letters, writing and number sense", "Science and nature projects", "Independence and responsibility", "A smooth step into first grade"],
+      },
+    ],
+  },
+  schedule: {
+    title: "A day at Buds",
+    items: [
+      { time: "7:30", label: "Arrival and free play" },
+      { time: "8:30", label: "Circle time: songs and the plan for the day" },
+      { time: "9:15", label: "Healthy snack" },
+      { time: "9:45", label: "Learning centers" },
+      { time: "11:00", label: "Outdoor play" },
+      { time: "12:00", label: "Lunch" },
+      { time: "12:45", label: "Rest and quiet reading" },
+      { time: "14:00", label: "Art and music" },
+      { time: "14:45", label: "Story and pick-up" },
+    ],
+  },
+  faq: {
+    title: "Questions parents ask",
+    items: [
+      { q: "What are the opening hours?", a: "Sunday to Thursday, 7:30 to 15:00. Early drop-off and late pick-up can be arranged." },
+      { q: "Is food included?", a: "Yes, a morning snack and a hot lunch. Please tell us about any allergies when you enroll." },
+      { q: "Can my child visit first?", a: "Of course. Book a visit and your child can spend an hour with a group." },
+      { q: "What should my child bring?", a: "A change of clothes, a water bottle and a small blanket for rest time." },
+      { q: "How are fees paid?", a: "Monthly or per term. We share the fee sheet during your visit." },
+    ],
+  },
+  about: {
+    title: "About us",
+    story: {
+      title: "Our story",
+      text: [
+        "Buds began with a simple idea: the first years at school should feel like an extension of a loving home.",
+        "Today our teachers guide children aged 2 to 6 through play, stories and projects, in Arabic and English, in small groups.",
+      ],
+    },
+    mission: { title: "Our mission", text: "To give every child a safe place to be curious, confident and kind." },
+    teachers: {
+      title: "Meet the teachers",
+      items: [
+        { initial: "L", name: "Ms. Layla Haddad", role: "Head teacher", bio: "Fifteen years in early childhood education." },
+        { initial: "S", name: "Ms. Sara Nasser", role: "Sprouts teacher", bio: "Loves storytelling and puppet shows." },
+        { initial: "O", name: "Mr. Omar Khalil", role: "Art and music", bio: "Turns every Thursday into a small concert." },
+      ],
+    },
+    safety: {
+      title: "Safety and health",
+      items: [
+        "Secured entrance, pick-up by authorized adults only",
+        "Teachers trained in first aid",
+        "Daily cleaning and a weekly deep clean",
+        "A menu that takes allergies into account",
+      ],
+    },
+  },
+  gallery: {
+    title: "Gallery",
+    intro: "Moments from our classrooms and garden.",
+    close: "Close",
+    samples: ["Painting day", "Planting in the garden", "Story corner", "Sand play", "Music circle", "Building blocks"],
+  },
+  news: {
+    title: "News and events",
+    intro: "What is happening at Buds these days.",
+    latest: "Latest news",
+    all: "All news",
+    samples: [
+      { title: "Open house this month", body: "Come and see our classrooms and meet the teachers.", date: "2026-11-20" },
+      { title: "Autumn art week", body: "Every group is painting leaves for the corridor exhibition.", date: "2026-11-12" },
+      { title: "A new reading corner", body: "Our library has a cozy new corner with Arabic and English picture books.", date: "2026-10-28" },
+    ],
+  },
+  admission: {
+    title: "Admission",
+    intro: "Four easy steps to join Buds.",
+    steps: [
+      { title: "Send the form", text: "Tell us about your child in the form below." },
+      { title: "We call you", text: "We confirm a visit time within two working days." },
+      { title: "Visit and meet", text: "Your child spends an hour with a group while we talk with you." },
+      { title: "Welcome", text: "We complete the paperwork and choose a start date." },
+    ],
+    docs: {
+      title: "Documents to bring",
+      items: ["Copy of the birth certificate", "Vaccination record", "Two passport photos", "Copy of a parent's ID"],
+    },
+    form: {
+      title: "Enrollment request",
+      child: "Child's full name",
+      birth: "Date of birth",
+      group: "Program",
+      groups: { "": "Choose a program", seeds: "Little Seeds (2–3)", sprouts: "Sprouts (3–4)", blossoms: "Blossoms (4–6)" },
+      parent: "Parent's name",
+      phone: "Phone",
+      email: "Email",
+      notes: "Allergies or anything we should know",
+      submit: "Send request",
+      sending: "Sending…",
+      ok: "Thank you! We received your request and will call you soon.",
+      err: "We could not send your request. Please try again or call us.",
+      required: "Please fill in the required fields.",
+    },
+  },
+  contact: {
+    title: "Contact us",
+    intro: "Call or visit us. We are happy to answer your questions.",
+    address: "Address",
+    addressValue: "12 Garden Street, Your City",
+    phone: "Phone",
+    phoneValue: "+000 000 000 000",
+    email: "Email",
+    emailValue: "hello@buds-kindergarten.example",
+    hours: "Opening hours",
+    hoursValue: "Sunday–Thursday, 7:30–15:00",
+    form: {
+      title: "Send us a message",
+      name: "Your name",
+      email: "Email",
+      phone: "Phone (optional)",
+      message: "Message",
+      submit: "Send message",
+      sending: "Sending…",
+      ok: "Thank you! We will reply soon.",
+      err: "We could not send your message. Please try again.",
+      required: "Please fill in the required fields.",
+    },
+  },
+  cta: {
+    title: "Come and see Buds in person",
+    text: "Book a visit and let your child try a morning with us.",
+    button: "Book a visit",
+  },
+  footer: { links: "Quick links", rights: "All rights reserved." },
+};
+
+const ar = {
+  brand: { name: "روضة براعم", tagline: "تعليم ورعاية مبكرة للأطفال من 2 إلى 6 سنوات" },
+  common: { skip: "انتقل إلى المحتوى" },
+  lang: { switch: "English" },
+  nav: {
+    home: "الرئيسية", about: "من نحن", programs: "البرامج", gallery: "المعرض",
+    news: "الأخبار", admission: "التسجيل", contact: "تواصل معنا", menu: "القائمة",
+  },
+  hero: {
+    title: "مدرستك الأولى حيث يزهر كل طفل",
+    text: "مجموعات صغيرة ومعلمات حنونات ويوم كامل من التعلّم باللعب باللغتين العربية والإنجليزية.",
+    primary: "سجّل طفلك",
+    secondary: "احجز زيارة",
+  },
+  values: {
+    title: "ما يحصل عليه طفلك كل يوم",
+    items: [
+      { title: "أمان ورعاية", text: "معلمات مدرّبات، ومدخل مؤمَّن، وممرضة في الروضة." },
+      { title: "التعلّم باللعب", text: "يكتشف العدّ والحروف والعلوم بيديه، لا بأوراق العمل." },
+      { title: "لغتان معًا", text: "العربية والإنجليزية في الأناشيد والقصص والحوار اليومي." },
+      { title: "قريبون من الأسرة", text: "ملاحظات يومية وصور ولقاءات شهرية مفتوحة مع المعلمات." },
+    ],
+  },
+  programsTeaser: { title: "ثلاثة برامج، لكل مرحلة برنامج", more: "عرض كل البرامج" },
+  programs: {
+    title: "برامجنا",
+    intro: "نُبقي المجموعات صغيرة ليعرف كل معلّم كل طفل.",
+    items: [
+      {
+        name: "بذور صغيرة", age: "من 2 إلى 3 سنوات",
+        text: "خطوات أولى لطيفة بعيدًا عن البيت: روتين، ولعب حسّي، وأناشيد، وكثير من العناق.",
+        points: ["مجموعات حتى 10 أطفال", "لعب حسّي وحركي", "دعم في التدرّب على الحمّام", "وقت قيلولة يوميًا"],
+      },
+      {
+        name: "براعم", age: "من 3 إلى 4 سنوات",
+        text: "تنمو اللغة بسرعة في هذا العمر، فنبني الكلمات والقصص والصداقات.",
+        points: ["أناشيد وقصص وعروض دمى", "حروف وأرقام مبكرة عبر الألعاب", "مشاريع فنية وبناء", "تكوين الصداقات والمشاركة"],
+      },
+      {
+        name: "أزهار", age: "من 4 إلى 6 سنوات",
+        text: "الاستعداد للمدرسة: الحروف والأرقام والكتابة المبكرة والاستقلالية.",
+        points: ["الحروف والكتابة وحسّ العدد", "مشاريع علمية وطبيعية", "الاستقلالية وتحمّل المسؤولية", "انتقال سلس إلى الصف الأول"],
+      },
+    ],
+  },
+  schedule: {
+    title: "يوم في روضة براعم",
+    items: [
+      { time: "7:30", label: "الوصول واللعب الحر" },
+      { time: "8:30", label: "حلقة الصباح: أناشيد وخطة اليوم" },
+      { time: "9:15", label: "وجبة خفيفة صحية" },
+      { time: "9:45", label: "أركان التعلّم" },
+      { time: "11:00", label: "لعب في الهواء الطلق" },
+      { time: "12:00", label: "الغداء" },
+      { time: "12:45", label: "راحة وقراءة هادئة" },
+      { time: "14:00", label: "فن وموسيقى" },
+      { time: "14:45", label: "قصة واستلام الأطفال" },
+    ],
+  },
+  faq: {
+    title: "أسئلة يسألها الأهل",
+    items: [
+      { q: "ما ساعات الدوام؟", a: "من الأحد إلى الخميس، من 7:30 حتى 15:00. يمكن ترتيب الاستقبال المبكر أو الاستلام المتأخر." },
+      { q: "هل الطعام مشمول؟", a: "نعم، وجبة خفيفة صباحية وغداء ساخن. أخبرونا بأي حساسية عند التسجيل." },
+      { q: "هل يمكن لطفلي زيارة الروضة أولًا؟", a: "بالتأكيد. احجزوا زيارة ويقضي طفلكم ساعة مع إحدى المجموعات." },
+      { q: "ماذا يحضر طفلي معه؟", a: "ملابس بديلة، وزجاجة ماء، وبطانية صغيرة لوقت الراحة." },
+      { q: "كيف تُدفع الرسوم؟", a: "شهريًا أو لكل فصل. نعرض عليكم جدول الرسوم أثناء الزيارة." },
+    ],
+  },
+  about: {
+    title: "من نحن",
+    story: {
+      title: "قصتنا",
+      text: [
+        "بدأت براعم بفكرة بسيطة: السنوات الأولى في المدرسة يجب أن تبدو امتدادًا لبيت دافئ.",
+        "اليوم ترافق معلماتنا الأطفال من عمر 2 إلى 6 سنوات عبر اللعب والقصص والمشاريع، بالعربية والإنجليزية وفي مجموعات صغيرة.",
+      ],
+    },
+    mission: { title: "رسالتنا", text: "أن نمنح كل طفل مكانًا آمنًا ليكون فضوليًا وواثقًا ولطيفًا." },
+    teachers: {
+      title: "تعرّفوا على المعلمين",
+      items: [
+        { initial: "ل", name: "الأستاذة ليلى حداد", role: "مديرة الروضة", bio: "خمسة عشر عامًا في تعليم الطفولة المبكرة." },
+        { initial: "س", name: "الأستاذة سارة ناصر", role: "معلمة مجموعة براعم", bio: "تحب رواية القصص وعروض الدمى." },
+        { initial: "ع", name: "الأستاذ عمر خليل", role: "الفن والموسيقى", bio: "يحوّل كل خميس إلى حفلة موسيقية صغيرة." },
+      ],
+    },
+    safety: {
+      title: "الأمان والصحة",
+      items: [
+        "مدخل مؤمَّن واستلام الأطفال للمخوَّلين فقط",
+        "معلمات مدرّبات على الإسعافات الأولية",
+        "تنظيف يومي وتعقيم عميق أسبوعيًا",
+        "قائمة طعام تراعي الحساسية",
+      ],
+    },
+  },
+  gallery: {
+    title: "المعرض",
+    intro: "لحظات من صفوفنا وحديقتنا.",
+    close: "إغلاق",
+    samples: ["يوم الرسم", "زراعة في الحديقة", "ركن القصص", "اللعب بالرمل", "حلقة موسيقى", "مكعبات البناء"],
+  },
+  news: {
+    title: "الأخبار والفعاليات",
+    intro: "ما يحدث في براعم هذه الأيام.",
+    latest: "آخر الأخبار",
+    all: "كل الأخبار",
+    samples: [
+      { title: "يوم مفتوح هذا الشهر", body: "تعالوا وشاهدوا صفوفنا والتقوا بمعلماتنا.", date: "2026-11-20" },
+      { title: "أسبوع الفن الخريفي", body: "كل مجموعة ترسم أوراق الشجر لمعرض الممر.", date: "2026-11-12" },
+      { title: "ركن قراءة جديد", body: "في مكتبتنا ركن دافئ جديد فيه كتب مصوّرة بالعربية والإنجليزية.", date: "2026-10-28" },
+    ],
+  },
+  admission: {
+    title: "التسجيل",
+    intro: "أربع خطوات بسيطة للانضمام إلى براعم.",
+    steps: [
+      { title: "أرسلوا النموذج", text: "عرّفونا بطفلكم في النموذج أدناه." },
+      { title: "نتصل بكم", text: "نؤكد موعد الزيارة خلال يومي عمل." },
+      { title: "زيارة ولقاء", text: "يقضي طفلكم ساعة مع مجموعة بينما نتحدث معكم." },
+      { title: "أهلًا بكم", text: "نُكمل الأوراق ونحدد تاريخ البدء." },
+    ],
+    docs: {
+      title: "المستندات المطلوبة",
+      items: ["صورة عن شهادة الميلاد", "سجل التطعيمات", "صورتان شخصيتان", "صورة عن هوية أحد الوالدين"],
+    },
+    form: {
+      title: "طلب تسجيل",
+      child: "الاسم الكامل للطفل",
+      birth: "تاريخ الميلاد",
+      group: "البرنامج",
+      groups: { "": "اختر البرنامج", seeds: "بذور صغيرة (2–3)", sprouts: "براعم (3–4)", blossoms: "أزهار (4–6)" },
+      parent: "اسم ولي الأمر",
+      phone: "الهاتف",
+      email: "البريد الإلكتروني",
+      notes: "الحساسية أو أي شيء يجب أن نعرفه",
+      submit: "إرسال الطلب",
+      sending: "جارٍ الإرسال…",
+      ok: "شكرًا لكم! استلمنا طلبكم وسنتصل بكم قريبًا.",
+      err: "تعذّر إرسال الطلب. حاولوا مرة أخرى أو اتصلوا بنا.",
+      required: "يرجى تعبئة الحقول المطلوبة.",
+    },
+  },
+  contact: {
+    title: "تواصل معنا",
+    intro: "اتصلوا بنا أو زورونا، يسعدنا الرد على أسئلتكم.",
+    address: "العنوان",
+    addressValue: "شارع الحدائق 12، مدينتكم",
+    phone: "الهاتف",
+    phoneValue: "+000 000 000 000",
+    email: "البريد الإلكتروني",
+    emailValue: "hello@buds-kindergarten.example",
+    hours: "ساعات الدوام",
+    hoursValue: "الأحد–الخميس، 7:30–15:00",
+    form: {
+      title: "أرسلوا لنا رسالة",
+      name: "اسمكم",
+      email: "البريد الإلكتروني",
+      phone: "الهاتف (اختياري)",
+      message: "الرسالة",
+      submit: "إرسال الرسالة",
+      sending: "جارٍ الإرسال…",
+      ok: "شكرًا لكم! سنرد قريبًا.",
+      err: "تعذّر إرسال الرسالة. حاولوا مرة أخرى.",
+      required: "يرجى تعبئة الحقول المطلوبة.",
+    },
+  },
+  cta: {
+    title: "تعالوا وشاهدوا براعم بأنفسكم",
+    text: "احجزوا زيارة ودعوا طفلكم يجرّب صباحًا معنا.",
+    button: "احجز زيارة",
+  },
+  footer: { links: "روابط سريعة", rights: "جميع الحقوق محفوظة." },
+};
+
+export default { en, ar };
